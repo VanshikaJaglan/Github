@@ -1,0 +1,162 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Helper Classes */
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Container - Configurable */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+#header {
+    height:70px;
+    background-color:#FFFFFF;
+}
+#header .logo{
+    width:15%;
+}
+#header .col-1{
+    width:60%;
+    margin-left:40px;
+}
+#header .search{
+    width:82%;
+    padding-top:15px;
+}
+#header .search input{
+    width:80%;
+    height:36px;
+    padding-left:35px;
+}
+#header .search button{
+    position:absolute;
+    left:190px;
+    height:36px;
+    width:30px;
+    background-color:transparent;
+    border:none;
+    color:#999999;
+}
+#header .col-2{
+    width:35%;
+    text-align:right;
+    padding:25px 40px 0px 0px;
+}
+#header .col-2 .col{
+    display:inline-block;
+    padding-right:30px;
+}
+#header .col-2 button{
+    background-color:#F84464;
+    width:67px;
+    height:25px;
+    border:none;
+    border-radius:4px;
+    color:#FFFFFF;
+    font:12px Roboto, sans-serif;
+}
+#nav{
+    background-color:#F5F5F5;
+    height:40px;
+    width:100%;
+    border-bottom:2px solid #c5c5c5
+}
+#nav .col-1{
+    width:50%;
+    margin-left:45px;
+}
+#nav .col-1 ul li{
+    display:inline-block;
+    padding:10px 10px 0px 0px;
+    font:14px Roboto,sans-serif;
+}
+#nav .col-1 ul li a{
+    color:#333333;
+}
+#nav .col-2{
+    width:25%;
+    margin-left:40px;
+}
+#nav .col-2 ul li a{
+    color:#333333;
+}
+#nav .col-2 ul li{
+    display:inline-block;
+    padding:10px 0px 0px 10px;
+    font:12px Roboto,sans-serif;
+}
+#banner img{
+    background-color:#F5F5F5;
+    padding:10px;
+}
+#box{
+    background-color:#FFFFFF;
+    margin-left:20px;
+}
+#box .content{
+    display:inline-block;
+    height:300px;
+    width:18%;
+    margin-right:23px;
+    border-radius:5px; 
+}
+#box h2{
+    font:24px sans-serif;
+    color:hsl(0, 0%, 20%);
+}
+#box #one{
+    background-image:url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni8xMCAgOS41SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00328827-jzdjnxhusf-portrait.jpg");
+    background-size:cover;
+}
+#box #two{
+    background-image:url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny43LzEwICA0OC42SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00370844-ldmqyckrea-portrait.jpg");
+    background-size:cover;
+}
+#box #three{
+    background-image:url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny4xLzEwICAxOEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395211-skkujsczwy-portrait.jpg");
+    background-size:cover;
+}
+#box #four{
+    background-image:url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MTYuOUsgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00398665-exkgqfpfum-portrait.jpg");
+    background-size:cover;
+}
+#box #five{
+    background-image:url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4xLzEwICA2LjVLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00412547-lhaznsdrld-portrait.jpg");
+    background-size:cover;
+}
